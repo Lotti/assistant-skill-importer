@@ -1,0 +1,29 @@
+{
+  "name": "assistant-skill-importer",
+  "version": "1.0.0",
+  "description": "CLI that helps to import or overwrite a skill on Watson Assistant",
+  "main": "index.js",
+  "bin": {
+    "assistant-skill-importer": "./index.js"
+  },
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lotti/assistant-skill-importer.git"
+  },
+  "author": "Valerio \"Lotti\" Riva",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lotti/assistant-skill-importer/issues"
+  },
+  "homepage": "https://github.com/Lotti/assistant-skill-importer#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^2.20.0",
+    "inquirer": "^6.3.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
